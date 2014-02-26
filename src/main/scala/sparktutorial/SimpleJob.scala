@@ -1,6 +1,6 @@
 package sparktutorial
 
-import spark.SparkContext
+import org.apache.spark.SparkContext
 import SparkContext._
 
 object SimpleJob extends Application {

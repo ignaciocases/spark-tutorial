@@ -2,7 +2,7 @@
 object SimulateMapReduce {
 
   def main (args: Array[String]) {
-    val lines = io.Source.fromFile(args(0)).getLines.toSeq
+    val lines = scala.io.Source.fromFile(args(0)).getLines.toSeq
     
     report("MutableMap", mutableMapCount(lines))
     report("MapByLine", mapByLineCount(lines))
